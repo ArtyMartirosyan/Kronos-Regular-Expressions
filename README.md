@@ -1,1 +1,3 @@
-# Kronos-Regular-Expressions
+# Kronos-Regular Expressions
+
+This program replicates how the InTouch device, from Kronos, checks when the device is booting and done booting with the help of Regular Expressions. It has different cases when booting up: booting the log, ending the log, booting another log before the previous one ended, ending a log that is already ended ect. Taking in account for each case I built if else statements that look at if booting is still true or false and then do the according operations. To get the time the device took to boot up I simply get it from the file from when it was booted and when it ends, then I subtract them in order to get the “runtime” of each log.
